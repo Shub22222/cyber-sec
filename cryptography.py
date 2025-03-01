@@ -193,27 +193,7 @@ def show_share_options():
         btn.image = img  # Keep reference to prevent garbage collection
         btn.pack(pady=5, padx=20, anchor="w")  # Align to left for better look
 
-    # for name, icon_path, url in icons:
-    #     img = PhotoImage(file=icon_path).subsample(10, 10)  # Resize icon if needed
-    #     btn = Button(share_window, image=img, command=lambda u=url: open_url(u), bd=0)
-        
-    #     btn.image = img  # Important! This keeps the image reference alive
-    #     btn.pack(pady=5)
-    # buttons = [
-    #     ("Email", "https://mail.google.com/"),
-    #     ("WhatsApp", "https://web.whatsapp.com/"),
-    #     ("Facebook", "https://www.facebook.com/"),
-    #     ("Instagram", "https://www.instagram.com/"),
-    #     ("X (Twitter)", "https://twitter.com/"),
-    #     ("Reddit", "https://www.reddit.com/"),
-    #     ("Blogger", "https://www.blogger.com/"),
-    #     ("LinkedIn", "https://www.linkedin.com/")
-    # ]
-
-    # tk.Label(share_window, text="Share your image to:").pack(pady=10)
-
-    # for name, url in buttons:
-    #     tk.Button(share_window, text=name, command=lambda u=url: open_url(u)).pack(pady=5)
+    
 
 # GUI Setup
 root = tk.Tk()
