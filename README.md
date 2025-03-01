@@ -1,5 +1,17 @@
 # cyber-sec
-This is a tool for hiding text under an image.
+# Steganography Tool - Hide Text in Images
 
+This is a GUI-based steganography tool that allows users to **hide secret messages inside images** using the Least Significant Bit (LSB) technique, combined with **AES encryption** using `cryptography` library.
 
-In this tool, first select an image. The selected image will be previewed. Then type your message and click on "Hide Message." After that, type the file name and click the "Refresh" button. Now, select the recently saved file name and click on "Extract" to retrieve your hidden message. You can then copy or share the image.
+---
+
+## 🛠️ Features
+
+- Hide encrypted messages inside images.
+- Extract hidden messages from images.
+- Save the encrypted image to a new file.
+- Preview selected image in GUI.
+- Share image via popular platforms (opens browser links).
+- Copy image directly to clipboard.
+
+---
