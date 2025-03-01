@@ -15,3 +15,4 @@ This is a GUI-based steganography tool that allows users to **hide secret messag
 - Copy image directly to clipboard.
 
 ---
+Put the PNG/ICO files into the icons folder.
