@@ -1,0 +1,4 @@
+tkinter
+Pillow
+cryptography
+pywin32
